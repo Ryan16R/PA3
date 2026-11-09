@@ -849,4 +849,79 @@ body, html {
     #nosotros .descripcion-general {
     column-count: 1;
     }
+
+      /* Cabecera */
+    #cabecera-principal {
+        height: auto;
+        min-height: 115px;
+        padding: 12px 10px;
+    }
+
+    #logo-sitio h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    #navegacion-sitio {
+        width: 100%;
+        margin-top: 12px;
+    }
+
+    #navegacion-sitio ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px 14px;
+    }
+
+    #navegacion-sitio a {
+        font-size: 10px;
+        padding-bottom: 4px;
+    }
+
+    /* Portada */
+    #portada {
+        height: auto;
+        min-height: 100svh;
+        padding: 155px 15px 35px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    #contenedor-portada {
+        width: 100%;
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    #contenedor-portada h1 {
+        font-size: clamp(38px, 11vw, 54px);
+        letter-spacing: -2px;
+        line-height: 1.1;
+        margin-bottom: 16px;
+    }
+
+    .slogan {
+        font-size: 14px;
+        line-height: 1.6;
+        margin-bottom: 28px;
+    }
+
+    /* Menú de la portada */
+    #menu-inicial ul {
+        flex-wrap: wrap;
+        gap: 12px 18px;
+        margin-bottom: 25px;
+    }
+
+    #menu-inicial a {
+        font-size: 11px;
+        letter-spacing: 1px;
+    }
+
+    /* Redes sociales */
+    .redes-iniciales {
+        gap: 12px;
+    }
+
 }
+
