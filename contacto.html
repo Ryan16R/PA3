@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Contactos | One Wish Willow</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">   
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div id="principal">
+        
+        <header id="cabecera-principal">
+
+            <div id="logo-sitio">
+                <a href="index.html"><h1>one wish willow</h1></a>
+            </div>
+
+            <nav id="navegacion-sitio">
+                <ul>
+                    <li><a href="index.html"><i class="fa-solid fa-house"></i> Inicio</a></li>
+                    <li><a href="nosotros.html"><i class="fa-solid fa-users"></i> Nosotros</a></li>
+                    <li><a href="blog.html" ><i class="fa-solid fa-blog"></i> Blog</a></li>
+                    <li><a href="galeria.html"><i class="fa-solid fa-images"></i> Galería</a></li>
+                    <li><a href="videos.html"><i class="fa-solid fa-video"></i> Videos</a></li>
+                    <li><a href="contacto.html" class="activo"><i class="fa-solid fa-address-book"></i> Contactos</a></li>
+                </ul>
+            </nav>
+
+        </header>
+        
+        
+
+        <main class="contactos">
+
+            <div class="col">
+            <table>
+                    <thead>
+                        <tr>
+                            <th colspan="2">Información de Contacto</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Dirección</strong></td>
+                            <td>824 N Hollywood Way, Burbank, CA 91505, EE. UU.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Teléfono</strong></td>
+                            <td>1-323-747-7118</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Email</strong></td>
+                            <td>contact@onewishwillow.com</td>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Horario de Atención</th>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                Atención al cliente:<br>
+                                De lunes a viernes de 8 am a 6 pm.
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <div class="imagen-obsession">
+                    <img src="img/tienda.jpg" alt="Tienda física de One Wish Willow">
+                </div>
+            </div>
+
+            <div class="col centro">
+                <div class="caja">
+                    <h3>Escríbenos</h3>
+                    <form action="#">
+                        <label for="nombre">Nombres y Apellidos</label>
+                        <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre completo">
+
+                        <label for="celular">Número de contacto *</label>
+                        <input type="tel" id="celular" name="celular" pattern="[0-9 ]+" placeholder="676 676 676" inputmode="numeric" required>
+
+                        <label for="correo">Correo electrónico *</label>
+                        <input type="email" id="correo" placeholder="nombre@dominio.com" name="correo" required>
+
+                        <label for="deseo">¿Cuál es tu deseo?</label>
+                        <input type="text" id="deseo" name="deseo" placeholder="Escribe tu deseo aquí">
+
+                        <label for="mensaje">Mensaje</label>
+                        <textarea id="mensaje" name="mensaje" rows="5" placeholder="Cuéntanos qué deseas..."></textarea>
+
+                        <input type="submit" value="ENVIAR" class="btn-env">
+                    </form>
+                </div>
+            </div>
+
+            <div class="col mapa-col">
+                <h3>Local central</h3>
+                <div id="mapa">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3300.903280950658!2d-118.38019323360128!3d34.174390420225215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c295e889a97f91%3A0x4970f67430f46df7!2sThe%20Green%20Man!5e0!3m2!1ses!2spe!4v1794176436588!5m2!1ses!2spe" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+                </div>
+            </div>
+
+        </main>
+
+
+        <footer class="redes-paginas-internas">
+            <a href="https://x.com" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://tiktok.com" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+        </footer>
+
+    </div>
+
+    <audio autoplay loop src="audio/I only have eyes for you.mp3"></audio>
+    
+</body>
+
+</html>
